@@ -339,6 +339,25 @@ p {
   font-size: 14px;
 }
 
+.pill-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 7px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: color-mix(in oklab, var(--surface), transparent 12%);
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1;
+}
+
 .card-link {
   width: fit-content;
   color: color-mix(in oklab, var(--accent), var(--text) 20%);
